@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     console.log("useEffect called");
     const func = async () => {
-      const res = await fetch('https://estrogenically-pitchiest-teisha.ngrok-free.dev/items', {
+      const res = await fetch(`${process.env.REACT_APP_BACKEND_SERVER}/items`, {
         'method': 'GET',
         headers: {
           "ngrok-skip-browser-warning": "true",
@@ -26,7 +26,7 @@ function App() {
 
   const save = async () => {
     setLoading(true);
-    const res = await fetch('https://estrogenically-pitchiest-teisha.ngrok-free.dev/ingest', {
+    const res = await fetch(`${process.env.REACT_APP_BACKEND_SERVER}/ingest`, {
       'method': 'POST',
       'headers': {
         'Content-Type': 'application/json'

@@ -8,7 +8,7 @@ function Prompt() {
 
     const getResponse = async () => {
         setLoading(true);
-        const res = await fetch('https://estrogenically-pitchiest-teisha.ngrok-free.dev/query', {
+        const res = await fetch(`${process.env.REACT_APP_BACKEND_SERVER}/query`, {
             'method': 'POST',
             'headers': {
                 'Content-Type': 'application/json'
