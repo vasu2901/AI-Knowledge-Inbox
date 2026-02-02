@@ -81,9 +81,9 @@ npm start
 1. Storing a Text
 <img width="1365" height="584" alt="image" src="https://github.com/user-attachments/assets/be84887c-181c-4f9e-9705-ff7230ad505e" />
 2. Storing an URL
-<img width="1365" height="584" alt="image" src="https://github.com/user-attachments/assets/32d8ce16-4be6-4e60-842b-50493a7f0b77" />
-3. Fetching response for a prompt with context
 <img width="1365" height="590" alt="image" src="https://github.com/user-attachments/assets/e80b751a-253c-4f18-bab7-56366e0317c1" />
+3. Fetching response for a prompt with context
+<img width="1335" height="591" alt="image" src="https://github.com/user-attachments/assets/db62ae08-31ee-49f0-be1d-8a6481e2d22a" />
 
 ---
 
