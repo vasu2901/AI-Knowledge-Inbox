@@ -75,3 +75,32 @@ npm start
 ```
 
 ---
+
+## ScreenShots
+
+1. Storing a Text
+2. Storing an URL
+3. Fetching response for a prompt with context
+
+---
+
+## Sample Response - 
+
+### Prompt - "Tell me About Serpwe"
+
+### Response - 
+```markdown
+Serpwe is an AI-powered SEO tool designed to help users build topical authority and outrank competition by simplifying the SEO workflow into four steps: discovering keywords, organizing them into clusters, generating content briefs, and writing optimized content (Source: https://serpwe.com).
+
+Key features and capabilities of the platform include:
+
+*   **Keyword Discovery:** It identifies trending and semantically relevant keywords using autocomplete data from Google and Bing (Source: https://serpwe.com).
+*   **Clustering:** The tool uses real-time SERP data and AI to group similar keywords into "Keyword Clusters." It also offers "Topical Clustering" using Natural Language Processing (NLP) to help users understand how these clusters relate to each other for content calendar planning (Source: https://serpwe.com).
+*   **Content Briefs:** It generates outlines and structures based on real-time competitor analysis, including NLP-ready keywords and context to satisfy search intent (Source: https://serpwe.com).
+*   **AI Writing Assistant:** This feature converts briefs into SEO-optimized, "human-like" articles. It includes built-in rank tracking and allows for real-time publishing to a CMS (Source: https://serpwe.com).
+*   **Integrations:** Users can upload keywords from other popular SEO tools to be clustered within Serpwe (Source: https://serpwe.com).
+
+According to user reviews, Serpwe is noted for its "unlimited pricing model," which distinguishes it from other credit-based clustering tools. It currently holds a 5/5 rating on ProductHunt and a 4/5 rating on Trustpilot, with over 1,000 users (Source: https://serpwe.com).
+
+```
+

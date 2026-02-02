@@ -167,7 +167,7 @@ def query(query: Query):
             return JSONResponse(content={"answer": answer}, status_code=201)
 
         except Exception as e:
-            logging.error(f"OpenAI error: {e}")
+            logging.error(f"AI error: {e}")
 
             return JSONResponse(content={"error": "Internal Server Error"}, status_code=500)
 

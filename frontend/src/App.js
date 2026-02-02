@@ -38,7 +38,14 @@ function App() {
       )
     });
     const json = await res.json();
-    console.log(json);
+    if (!res.ok) {
+      alert("Error saving data");
+      console.log(json);
+      setLoading(false);
+      setData("");
+      return;
+    }
+    setData("");
     setLoading(false);
   };
 

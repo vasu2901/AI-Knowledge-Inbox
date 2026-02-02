@@ -16,6 +16,12 @@ function Prompt() {
             body: JSON.stringify({ 'prompt': data })
         });
         const json = await res.json();
+        if(!res.ok){
+            alert("Error fetching response");
+            console.log(json);
+            setLoading(false);
+            return;
+        }
         setResponse(json.answer);
         setLoading(false);
     }
@@ -49,6 +55,7 @@ function Prompt() {
                 />}
                 <br />
                 <button type='submit' onClick={getResponse} disabled={loading}>Submit</button>
+                <button type='button' onClick={() => {setData(""); setResponse("")}} disabled={loading}>Clear</button>
             </div>
         </div>
     )
